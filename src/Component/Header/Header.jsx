@@ -4,7 +4,7 @@ const Header = () => {
 
 
     const options =<>
-    <li><Link>Coffee</Link></li>
+    <li><Link to='/addcoffee'> Add Coffee</Link></li>
     <li><Link>Add Coffee</Link></li>
     <li><Link>Edit Coffee</Link></li>
     <li><Link>Delete Coffee</Link></li>
