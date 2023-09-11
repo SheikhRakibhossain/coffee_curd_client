@@ -13,7 +13,7 @@ const Coffee = () => {
         fetch('http://localhost:5000/coffee')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                console.log(data);
                 setCoffees(data)
             })
             .catch(error => console.log(error))
